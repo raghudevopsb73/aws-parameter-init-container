@@ -3,7 +3,7 @@ kind: ServiceAccount
 metadata:
   name: test
   annotations:
-    ks.amazonaws.com/role-arn: arn:aws:iam::739561048503:role/eks-prod-ssm-pm-role
+    eks.amazonaws.com/role-arn: arn:aws:iam::739561048503:role/eks-prod-ssm-pm-role
 ---
 apiVersion: v1
 kind: Pod
