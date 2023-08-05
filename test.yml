@@ -17,5 +17,5 @@ spec:
       imagePullPolicy: Always
       env:
         - name: PARAMETERS
-          value: "roboshop.prod.rabbitmq.amqp_user roboshop.prod.rabbitmq.amqp_pass"
+          value: "AMQP_USER,roboshop.prod.rabbitmq.amqp_user AMQP_PASS,roboshop.prod.rabbitmq.amqp_pass"
 
