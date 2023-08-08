@@ -5,7 +5,7 @@ for param in ${PARAMETERS} ; do
   if [ -z "$PASS" ]; then
     PASS=${PARAM}
   fi
-  echo export $SHELL_VAR=$PASS >>/data/params
+  echo export $SHELL_VAR=\"$PASS\" >>/data/params
 done
 
 cat /data/params
